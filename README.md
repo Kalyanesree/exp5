@@ -11,25 +11,17 @@ Encoder 8 To 3
 
 The 8 to 3 line Encoder is also known as Octal to Binary Encoder. In 8 to 3 line encoder, there is a total of eight inputs, i.e., D0, D1, D2, D3, D4, D5, D6, and D7 and three outputs, i.e., A0, A1, and A2. In 8-input lines, one input-line is set to true at a time to get the respective binary code in the output side. Below are the block diagram and the truth table of the 8 to 3 line encoder.
 
-image
+![block diagram](https://github.com/Kalyanesree/exp5/assets/163311552/f6609af6-e655-40a7-b
+
 
 Figure 01 Block Diagram of Encoder 8 * 3
 
 Truth Table
 
-image
+![table1](https://github.com/Kalyanesree/exp5/assets/163311552/ef6a002d-4beb-48b3-b5f6-32b25a0224ec)
+![table 2](https://github.com/Kalyanesree/exp5/assets/163311552/d1ed5865-9dc6-4dca-bd2c-c5faba4d1d90)
 
-The logical expression of the term A0, A1, and A2 are as follows:
 
-A0 = D1 + D3 + D5 + D7
-
-A1 = D2 + D3 + D6 + D7
-
-A2 = D4 + D5 + D6 + D7
-
-Logical circuit of the above expressions is given below:
-
-image
 
 Figure 02 Encoder 8 * 3
 
@@ -41,10 +33,12 @@ PROGRAM
 
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber: */
+Developed by:KALYANE SREE M  RegisterNumber: 212222050028
 
-RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling
+![output](https://github.com/Kalyanesree/exp5/assets/163311552/3ffc55ac-b2dd-4fbd-b5c3-77f7efab98c9)
 
-TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling
+
+![waveform](https://github.com/Kalyanesree/exp5/assets/163311552/d66b802b-21f1-4cea-a640-1b73f7de3c9a)
+
 
 RESULTS
